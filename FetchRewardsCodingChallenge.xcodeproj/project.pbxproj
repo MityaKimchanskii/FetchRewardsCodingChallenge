@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		3BA3F733283D987F001CC9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F732283D987F001CC9E3 /* AppDelegate.swift */; };
 		3BA3F735283D987F001CC9E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F734283D987F001CC9E3 /* SceneDelegate.swift */; };
-		3BA3F737283D987F001CC9E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F736283D987F001CC9E3 /* ViewController.swift */; };
 		3BA3F73A283D987F001CC9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA3F738283D987F001CC9E3 /* Main.storyboard */; };
 		3BA3F73C283D9880001CC9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA3F73B283D9880001CC9E3 /* Assets.xcassets */; };
 		3BA3F73F283D9880001CC9E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA3F73D283D9880001CC9E3 /* LaunchScreen.storyboard */; };
+		3BA3F74B283DA21F001CC9E3 /* ListOfMealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F74A283DA21F001CC9E3 /* ListOfMealsViewController.swift */; };
+		3BA3F751283DA3A7001CC9E3 /* MealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F750283DA3A7001CC9E3 /* MealController.swift */; };
+		3BA3F756283DA54B001CC9E3 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F755283DA54B001CC9E3 /* MealTableViewCell.swift */; };
+		3BA3F759283DA83E001CC9E3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F758283DA83E001CC9E3 /* Meal.swift */; };
+		3BA3F75C283DAAB0001CC9E3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F75B283DAAB0001CC9E3 /* NetworkError.swift */; };
+		3BA3F764283DF478001CC9E3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F763283DF478001CC9E3 /* DetailsViewController.swift */; };
+		4BEAFB47AF319712BD54A750 /* Pods_FetchRewardsCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F0A3323834CE355D0AACE /* Pods_FetchRewardsCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098073DC801601FA8BD70428 /* Pods-FetchRewardsCodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchRewardsCodingChallenge.release.xcconfig"; path = "Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		3BA3F72F283D987F001CC9E3 /* FetchRewardsCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchRewardsCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA3F732283D987F001CC9E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BA3F734283D987F001CC9E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BA3F736283D987F001CC9E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BA3F739283D987F001CC9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BA3F73B283D9880001CC9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BA3F73E283D9880001CC9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BA3F740283D9880001CC9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA3F74A283DA21F001CC9E3 /* ListOfMealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMealsViewController.swift; sourceTree = "<group>"; };
+		3BA3F750283DA3A7001CC9E3 /* MealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealController.swift; sourceTree = "<group>"; };
+		3BA3F755283DA54B001CC9E3 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		3BA3F758283DA83E001CC9E3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		3BA3F75B283DAAB0001CC9E3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		3BA3F763283DF478001CC9E3 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		936F0A3323834CE355D0AACE /* Pods_FetchRewardsCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchRewardsCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975F352479D0F4D86975785F /* Pods-FetchRewardsCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchRewardsCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEAFB47AF319712BD54A750 /* Pods_FetchRewardsCodingChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				3BA3F731283D987F001CC9E3 /* FetchRewardsCodingChallenge */,
 				3BA3F730283D987F001CC9E3 /* Products */,
+				B37366AE72AF9169DD786AAE /* Pods */,
+				7833AF7700C608FF4355DA11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,101 @@
 		3BA3F731283D987F001CC9E3 /* FetchRewardsCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				3BA3F732283D987F001CC9E3 /* AppDelegate.swift */,
-				3BA3F734283D987F001CC9E3 /* SceneDelegate.swift */,
-				3BA3F736283D987F001CC9E3 /* ViewController.swift */,
-				3BA3F738283D987F001CC9E3 /* Main.storyboard */,
-				3BA3F73B283D9880001CC9E3 /* Assets.xcassets */,
-				3BA3F73D283D9880001CC9E3 /* LaunchScreen.storyboard */,
-				3BA3F740283D9880001CC9E3 /* Info.plist */,
+				3BA3F75A283DAA77001CC9E3 /* HelperMethods */,
+				3BA3F754283DA50E001CC9E3 /* CustomViews */,
+				3BA3F748283D98CC001CC9E3 /* Models */,
+				3BA3F749283D98D8001CC9E3 /* Views */,
+				3BA3F747283D98B8001CC9E3 /* Controllers */,
+				3BA3F746283D98A6001CC9E3 /* Resources */,
 			);
 			path = FetchRewardsCodingChallenge;
+			sourceTree = "<group>";
+		};
+		3BA3F746283D98A6001CC9E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3F732283D987F001CC9E3 /* AppDelegate.swift */,
+				3BA3F734283D987F001CC9E3 /* SceneDelegate.swift */,
+				3BA3F73D283D9880001CC9E3 /* LaunchScreen.storyboard */,
+				3BA3F73B283D9880001CC9E3 /* Assets.xcassets */,
+				3BA3F740283D9880001CC9E3 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BA3F747283D98B8001CC9E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3F74F283DA322001CC9E3 /* ModelControllers */,
+				3BA3F74E283DA304001CC9E3 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3BA3F748283D98CC001CC9E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3F758283DA83E001CC9E3 /* Meal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BA3F749283D98D8001CC9E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3F738283D987F001CC9E3 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BA3F74E283DA304001CC9E3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3F74A283DA21F001CC9E3 /* ListOfMealsViewController.swift */,
+				3BA3F763283DF478001CC9E3 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3BA3F74F283DA322001CC9E3 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3F750283DA3A7001CC9E3 /* MealController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		3BA3F754283DA50E001CC9E3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3F755283DA54B001CC9E3 /* MealTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3BA3F75A283DAA77001CC9E3 /* HelperMethods */ = {
+			isa = PBXGroup;
+			children = (
+				3BA3F75B283DAAB0001CC9E3 /* NetworkError.swift */,
+			);
+			path = HelperMethods;
+			sourceTree = "<group>";
+		};
+		7833AF7700C608FF4355DA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				936F0A3323834CE355D0AACE /* Pods_FetchRewardsCodingChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B37366AE72AF9169DD786AAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				975F352479D0F4D86975785F /* Pods-FetchRewardsCodingChallenge.debug.xcconfig */,
+				098073DC801601FA8BD70428 /* Pods-FetchRewardsCodingChallenge.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BA3F743283D9880001CC9E3 /* Build configuration list for PBXNativeTarget "FetchRewardsCodingChallenge" */;
 			buildPhases = (
+				316FADEDF7FB1B7D1173C748 /* [CP] Check Pods Manifest.lock */,
 				3BA3F72B283D987F001CC9E3 /* Sources */,
 				3BA3F72C283D987F001CC9E3 /* Frameworks */,
 				3BA3F72D283D987F001CC9E3 /* Resources */,
+				2FE437083210B38526D94B50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +238,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FE437083210B38526D94B50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316FADEDF7FB1B7D1173C748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FetchRewardsCodingChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BA3F72B283D987F001CC9E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA3F737283D987F001CC9E3 /* ViewController.swift in Sources */,
+				3BA3F74B283DA21F001CC9E3 /* ListOfMealsViewController.swift in Sources */,
+				3BA3F751283DA3A7001CC9E3 /* MealController.swift in Sources */,
+				3BA3F756283DA54B001CC9E3 /* MealTableViewCell.swift in Sources */,
+				3BA3F759283DA83E001CC9E3 /* Meal.swift in Sources */,
 				3BA3F733283D987F001CC9E3 /* AppDelegate.swift in Sources */,
+				3BA3F75C283DAAB0001CC9E3 /* NetworkError.swift in Sources */,
 				3BA3F735283D987F001CC9E3 /* SceneDelegate.swift in Sources */,
+				3BA3F764283DF478001CC9E3 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +434,7 @@
 		};
 		3BA3F744283D9880001CC9E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975F352479D0F4D86975785F /* Pods-FetchRewardsCodingChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,12 +442,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FetchRewardsCodingChallenge/Info.plist;
+				INFOPLIST_FILE = FetchRewardsCodingChallenge/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +457,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3BA3F745283D9880001CC9E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098073DC801601FA8BD70428 /* Pods-FetchRewardsCodingChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,12 +471,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3VP62JDQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FetchRewardsCodingChallenge/Info.plist;
+				INFOPLIST_FILE = FetchRewardsCodingChallenge/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
