@@ -18,6 +18,7 @@
 		3BA3F759283DA83E001CC9E3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F758283DA83E001CC9E3 /* Meal.swift */; };
 		3BA3F75C283DAAB0001CC9E3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F75B283DAAB0001CC9E3 /* NetworkError.swift */; };
 		3BA3F764283DF478001CC9E3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3F763283DF478001CC9E3 /* DetailsViewController.swift */; };
+		3BFBED2D284590D800AD2AF2 /* UpdateLabelColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBED2C284590D800AD2AF2 /* UpdateLabelColor.swift */; };
 		4BEAFB47AF319712BD54A750 /* Pods_FetchRewardsCodingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F0A3323834CE355D0AACE /* Pods_FetchRewardsCodingChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		3BA3F758283DA83E001CC9E3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		3BA3F75B283DAAB0001CC9E3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		3BA3F763283DF478001CC9E3 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3BFBED2C284590D800AD2AF2 /* UpdateLabelColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLabelColor.swift; sourceTree = "<group>"; };
 		936F0A3323834CE355D0AACE /* Pods_FetchRewardsCodingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchRewardsCodingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		975F352479D0F4D86975785F /* Pods-FetchRewardsCodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchRewardsCodingChallenge.debug.xcconfig"; path = "Target Support Files/Pods-FetchRewardsCodingChallenge/Pods-FetchRewardsCodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +75,7 @@
 		3BA3F731283D987F001CC9E3 /* FetchRewardsCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				3BA3F75A283DAA77001CC9E3 /* HelperMethods */,
+				3BA3F75A283DAA77001CC9E3 /* HelperFiles+Extensions */,
 				3BA3F754283DA50E001CC9E3 /* CustomViews */,
 				3BA3F748283D98CC001CC9E3 /* Models */,
 				3BA3F749283D98D8001CC9E3 /* Views */,
@@ -145,12 +147,13 @@
 			path = CustomViews;
 			sourceTree = "<group>";
 		};
-		3BA3F75A283DAA77001CC9E3 /* HelperMethods */ = {
+		3BA3F75A283DAA77001CC9E3 /* HelperFiles+Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				3BA3F75B283DAAB0001CC9E3 /* NetworkError.swift */,
+				3BFBED2C284590D800AD2AF2 /* UpdateLabelColor.swift */,
 			);
-			path = HelperMethods;
+			path = "HelperFiles+Extensions";
 			sourceTree = "<group>";
 		};
 		7833AF7700C608FF4355DA11 /* Frameworks */ = {
@@ -288,6 +291,7 @@
 				3BA3F74B283DA21F001CC9E3 /* ListOfMealsViewController.swift in Sources */,
 				3BA3F751283DA3A7001CC9E3 /* MealController.swift in Sources */,
 				3BA3F756283DA54B001CC9E3 /* MealTableViewCell.swift in Sources */,
+				3BFBED2D284590D800AD2AF2 /* UpdateLabelColor.swift in Sources */,
 				3BA3F759283DA83E001CC9E3 /* Meal.swift in Sources */,
 				3BA3F733283D987F001CC9E3 /* AppDelegate.swift in Sources */,
 				3BA3F75C283DAAB0001CC9E3 /* NetworkError.swift in Sources */,

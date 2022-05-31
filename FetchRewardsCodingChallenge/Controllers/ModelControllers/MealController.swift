@@ -37,14 +37,13 @@ class MealController {
                 
                 let sortedArr = mealsArray.sorted { $0.strMeal < $1.strMeal }
                 return completion(.success(sortedArr))
-                
             } catch {
                 return completion(.failure(.unableToDecode))
             }
         }.resume()
     }
     
-    static func fetchMealDetails(with id: String, completion: @escaping (Result<[MealData], NetworkError>) -> Void) {
+    static func fetchMealDetails(with id: String, completion: @escaping (Result<Data, NetworkError>) -> Void) {
         guard let baseURLForData = baseURLForData else { return completion(.failure(.invalidURL)) }
         
         var components = URLComponents(url: baseURLForData, resolvingAgainstBaseURL: true)
@@ -63,7 +62,8 @@ class MealController {
             
             do {
                 let mealData = try JSONDecoder().decode(MealData.self, from: data)
-                return completion(.success([mealData]))
+                let resultOfMealData = mealData.meals[0]
+                return completion(.success(resultOfMealData))
             } catch {
                 return completion(.failure(.unableToDecode))
             }

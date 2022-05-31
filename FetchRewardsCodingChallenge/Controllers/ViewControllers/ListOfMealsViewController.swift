@@ -30,7 +30,8 @@ class ListOfMealsViewController: UIViewController {
                     self.meals = meals
                     self.listOfMealsTableView.reloadData()
                 case .failure(let error):
-                    print("Error: \(error) ------ \(error.localizedDescription)")
+                    print(error)
+                    print(error.localizedDescription)
                 }
             }
         }
